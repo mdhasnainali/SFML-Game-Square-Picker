@@ -1,0 +1,6 @@
+﻿  Game.cpp
+E:\Skills\Programming\Github\Done\SFML Game - Square Picker\SFML Game - Square Picker\Game.cpp(185,27): warning C4018: '<': signed/unsigned mismatch
+E:\Skills\Programming\Github\Done\SFML Game - Square Picker\SFML Game - Square Picker\Game.cpp(198,20): warning C4018: '<': signed/unsigned mismatch
+  Main.cpp
+  Generating Code...
+  SFML Game - Square Picker.vcxproj -> E:\Skills\Programming\Github\Done\SFML Game - Square Picker\SFML Game - Square Picker\Debug\SFML Game - Square Picker.exe

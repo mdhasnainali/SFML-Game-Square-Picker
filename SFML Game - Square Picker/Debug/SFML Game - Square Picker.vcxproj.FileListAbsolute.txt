@@ -1,0 +1,2 @@
+E:\Skills\Programming\Github\Done\SFML Game - Square Picker\SFML Game - Square Picker\Debug\SFML Game - Square Picker.exe
+E:\Skills\Programming\Github\Done\SFML Game - Square Picker\SFML Game - Square Picker\Debug\SFML Game - Square Picker.pdb

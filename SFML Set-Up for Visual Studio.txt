@@ -1,0 +1,36 @@
+SFML Set-Up for Visual Studio
+=============================
+
+1. Copy the bin folder's files from the SFML download folder & paste in the project directory.
+2. Right click the project and goto "Property".
+3. Change Configuration to "All Configurations".
+4. Change Platform as your SFML type and OS type. 
+	Example: Here mine is "Win 32"
+5. Goto C/C++ -> General & set additional directory as your SFML download file's "include" folder path.
+	Example: For me : C:\SFML For VS\SFML-2.5.1\include
+	* If you want to make it more easy then make a folder named "Externals" and bring "lib" and "include" folder's from SFML download folder.
+	* Then just use: $(SolutionDir)\Externals\include
+6. Goto Linker -> General and set Additional Library Directory as SFML download file's "lib" folder path.
+	Example: For me : C:\SFML For VS\SFML-2.5.1\lib
+	* If you want to make it more easy then make a folder named "Externals" and bring "lib" and "include" folder's from SFML download folder.
+	* Then just use: $(SolutionDir)\Externals\lib
+7. Goto Linker -> input & set Additional Dependencies.	
+	sfml-graphics.lib
+	sfml-window.lib
+	sfml-system.lib
+	sfml-audio.lib
+	sfml-network.lib
+7. Change Configuration to "Release".
+8. Goto Linker -> input & set Additional Dependencies.
+	sfml-graphics-s.lib
+	sfml-window-s.lib
+	sfml-system-s.lib
+	sfml-audio-s.lib
+	sfml-network-s.lib
+9. Change Configuration to "Debug".
+10. Goto Linker -> input & set Additional Dependencies.
+	sfml-graphics-d.lib
+	sfml-window-d.lib
+	sfml-system-d.lib
+	sfml-audio-d.lib
+	sfml-network-d.lib
